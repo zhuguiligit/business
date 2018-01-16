@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_16">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:lines="1"
+        android:ellipsize="end"
+        android:text="输入搜索关键字"
+        android:background="@null"
+        android:paddingLeft="@dimen/dp_8"
+        android:id="@+id/key_text_et"
+        />
+
+    <Spinner
+        android:id="@+id/catid_sp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        />
+    <Button
+        android:layout_width="@dimen/dp_80"
+        android:layout_height="@dimen/dp_50"
+        android:text="确定"
+        android:gravity="center"
+        android:layout_gravity="right"/>
+
+</LinearLayout>

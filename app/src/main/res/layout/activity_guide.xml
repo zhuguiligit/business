@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.code.zzq.myapp.view.guide.GuideActivity">
+
+    <com.code.zzq.myapp.widget.CustomVideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/skip_btn"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="@dimen/dp_150"
+        android:layout_height="@dimen/dp_40"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="@dimen/dp_40"
+        android:background="@drawable/selector_skip_btn"
+        android:text="立即体验"
+        android:textColor="@color/fast_in"
+        android:textSize="@dimen/sp_14"
+        android:visibility="visible" />
+</FrameLayout>

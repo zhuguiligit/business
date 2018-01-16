@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@null">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/icon_welcome"
+    android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/time_3s"
+        android:textSize="@dimen/sp_66"
+        android:id="@+id/time_tv"/>
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="@string/fast_in_system"
+        android:textColor="#00ff00"
+        android:textSize="@dimen/sp_16"
+        android:id="@+id/fast_in_btn"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_30"/>
+</LinearLayout>

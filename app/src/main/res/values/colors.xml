@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--app配色-->
+    <color name="primary_bg">#f1f2f7</color>  <!-- 主背景色 -->
+    <color name="fast_in">#6377d8</color>  <!-- 快速进入按钮配色 -->
+    <!-- 透明颜色 -->
+    <color name="transparent">#00000000</color>
+    <color name="transparent_10">#10000000</color>
+    <color name="transparent_20">#20000000</color>
+    <color name="transparent_30">#30000000</color>
+    <color name="transparent_40">#40000000</color>
+    <color name="transparent_50">#50000000</color>
+    <color name="transparent_60">#60000000</color>
+    <color name="transparent_70">#70000000</color>
+    <color name="transparent_80">#80000000</color>
+    <color name="transparent_90">#90000000</color>
+
+    <color name="txt_gray">#cc222222</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="holo_gray_light">#33999999</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_orange_dark">#ffff8800</color>
+</resources>
